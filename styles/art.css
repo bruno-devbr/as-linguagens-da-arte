@@ -31,6 +31,7 @@ header h1 {
 main {
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 50px;
     padding: 30px;
     background-color: #cacaca;
 }
@@ -60,4 +61,39 @@ main img, main video {
 
 #bottom {
     margin: 0;
+}
+
+footer {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    background-color: #cacaca;
+}
+
+footer h2 {
+    margin-bottom: 30px;
+    height: 26px;
+    font-size: 26px;
+    color: #101010;
+}
+
+footer p {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+footer ul {
+    list-style-position: inside;
+    font-size: 22px;
+}
+
+footer a {
+    height: 22px;
+    margin-left: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
