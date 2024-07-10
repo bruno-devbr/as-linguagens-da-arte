@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 32px;
+    padding: 59px 0;
+    text-align: center;
+    background-color: #530053;
+}
+
+header h1 {
+    height: 32px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+}
