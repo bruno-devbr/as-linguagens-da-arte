@@ -25,6 +25,7 @@ header {
 header h1 {
     height: 80px;
     width: 350px;
+    margin: auto;
     font-size: 32px;
     font-weight: 900;
     color: #ffffff;
