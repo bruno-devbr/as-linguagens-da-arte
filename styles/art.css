@@ -118,17 +118,6 @@ footer a:hover {
     }
 }
 
-@media (max-width: 462px) {
-    header {
-        height: 80px;
-        padding: 35px 0;
-    }
-
-    header h1 {
-        height: 80px;
-    }
-}
-
 @media (max-width: 432px) {
     .bug {
         height: 55px;
