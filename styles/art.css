@@ -16,14 +16,15 @@ body {
 /*Cabeçalho*/
 header {
     width: 100%;
-    height: 32px;
-    padding: 59px 0;
+    height: 80px;
+    padding: 35px 0;
     text-align: center;
     background-color: #530053;
 }
 
 header h1 {
-    height: 32px;
+    height: 80px;
+    width: 350px;
     font-size: 32px;
     font-weight: 900;
     color: #ffffff;
