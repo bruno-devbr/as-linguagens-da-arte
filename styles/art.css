@@ -59,9 +59,16 @@ main ul {
     font-size: 22px;
 }
 
-main img, main video {
-    width: 100%;
-    margin-bottom: 10px;
+main .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+main .img img, main .img video {
+    max-width: 80%;
+    height: auto;
 }
 
 #bottom {
