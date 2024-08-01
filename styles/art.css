@@ -59,21 +59,38 @@ main ul {
     font-size: 22px;
 }
 
-main .img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+/* Ajustes para imagens e vídeos dentro da classe .img */
+.img {
+    display: block;
+    margin: 0 auto;
 }
 
-main .img img, main .img video {
-    max-width: 100%;
-    height: auto;
+.img img {
+    width: auto;
+    max-width: 800px; /* Ajuste geral para imagens */
 }
 
-main .six .img img, main .seven .img img {
-    max-width: 80%;
-    height: auto;
+.img video {
+    width: auto;
+    max-width: 640px; /* Ajuste geral para vídeos */
+}
+
+/* Ajustes específicos */
+section .img[src*="visuais.jpg"] img {
+    max-width: 800px; /* Ajuste específico para a primeira imagem */
+}
+
+section .img[src*="Despacito"] video {
+    max-width: 640px; /* Ajuste específico para o primeiro vídeo */
+}
+
+section .img[src*="Magic Flute"] video {
+    max-width: 720px; /* Ajuste específico para o segundo vídeo */
+}
+
+section .img[src*="danca.jpeg"], 
+section .img[src*="musica.jpeg"] {
+    max-width: 600px; /* Ajuste para a quarta e quinta imagens */
 }
 
 #bottom {
