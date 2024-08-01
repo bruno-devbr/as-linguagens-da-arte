@@ -13,7 +13,6 @@ body {
     background-color: #731b73;
 }
 
-/*Cabeçalho*/
 header {
     width: 100%;
     height: 80px;
@@ -30,9 +29,7 @@ header h1 {
     font-weight: 900;
     color: #ffffff;
 }
-/*Cabeçalho*/
 
-/*Conteudo Principal*/
 main {
     max-width: 940px;
     margin: auto;
@@ -59,51 +56,18 @@ main ul {
     font-size: 22px;
 }
 
-/* Ajustes para imagens e vídeos dentro da classe .img */
 .img {
-    display: block;
+    width: 70%;
     margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.img img {
-    display: block;
-    max-width: 100%; /* Ajusta o tamanho da imagem para não exceder o contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+.img img, .img video {
+    width: 100%;
+    height: auto;
 }
 
-.img video {
-    display: block;
-    max-width: 100%; /* Ajusta o tamanho do vídeo para não exceder o contêiner */
-    height: auto; /* Mantém a proporção do vídeo */
-}
-
-/* Ajustes específicos para as mídias */
-section .img img[src*="visuais.jpg"] {
-    max-width: 800px; /* Tamanho para a primeira imagem */
-}
-
-section .img video[src*="Despacito"] {
-    max-width: 640px; /* Tamanho para o primeiro vídeo */
-}
-
-section .img video[src*="Magic Flute"] {
-    max-width: 720px; /* Tamanho para o segundo vídeo */
-}
-
-section .img img[src*="danca.jpeg"] {
-    max-width: 600px; /* Tamanho para a quarta imagem */
-}
-
-section .img img[src*="musica.jpeg"] {
-    max-width: 600px; /* Tamanho para a quinta imagem */
-}
-
-#bottom {
-    margin: 0;
-}
-/*Conteudo Principal*/
-
-/*Rodapé*/
 footer {
     max-width: 940px;
     margin: auto;
@@ -138,9 +102,7 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-/*Rodapé*/
 
-/*Media Queries*/
 @media (max-width: 999px) {
     main h2, footer h2 {
         height: 24px;
@@ -157,4 +119,3 @@ footer a:hover {
         height: 55px;
     }
 }
-/*Media Queries*/
