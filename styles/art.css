@@ -67,6 +67,11 @@ main .img {
 }
 
 main .img img, main .img video {
+    max-width: 100%;
+    height: auto;
+}
+
+main .six .img img, main .seven .img img {
     max-width: 80%;
     height: auto;
 }
